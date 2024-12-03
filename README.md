@@ -8,7 +8,7 @@ To practice, I have recreated it using React and TypeScript. I have tried to rem
 
 Visually, I have modified the project by the following:
 
-- Centered content
+- Centered content using flexbox
 - Added site settings section with dropdowns
 
 The site settings are stored in state and modify the very same functions in the original project
