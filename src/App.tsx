@@ -113,7 +113,7 @@ export default function App() {
     <div className="main">
       <div className="site-settings">
         <label htmlFor="site-settings">Site Settings:</label>
-        <form id="site-settings" action="">
+        <form id="site-settings">
           <select
             name="font"
             id="font"
@@ -151,6 +151,7 @@ export default function App() {
             <option value="soft">Soft</option>
             <option value="round">Round</option>
           </select>
+          {/* No selector because the only mode that makes to me, a vampire, is dark mode */}
         </form>
       </div>
       <img src={img} alt="Sbu" />
